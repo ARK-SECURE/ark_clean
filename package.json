@@ -1,0 +1,30 @@
+{
+  "name": "ark_clean",
+  "type": "module",
+  "collaborators": [
+    "ARK Team <team@arkclean.dev>"
+  ],
+  "description": "Ultra-fast metadata cleaner with advanced threat detection",
+  "version": "3.2.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ARK-SECURE/ark_clean.git"
+  },
+  "files": [
+    "ark_clean_bg.wasm",
+    "ark_clean.js",
+    "ark_clean.d.ts"
+  ],
+  "main": "ark_clean.js",
+  "types": "ark_clean.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ],
+  "keywords": [
+    "metadata",
+    "sanitizer",
+    "security",
+    "wasm"
+  ]
+}
